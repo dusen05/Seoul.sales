@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+# Local secrets and Python environment
+.env.*
+!.env.example
+
+# Raw or generated datasets are not part of the dashboard source commit
+SPOP_2025_ADM.csv
+bnd_all_00_2025_2Q/
+HW2/*.csv
+HW2/admstr_zone_lgldong_bndry_24.*
+HW2/*_progress.json
